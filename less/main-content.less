@@ -1,22 +1,38 @@
-.main-logo {
-    display: flex;
-    justify-content: center;
-    width: 50%;
-    height:50%
-}
 
-.main-story{
-    .display();
+@media @mobile{
+  .main-logo{
+      width: 50%;
+      height: 50%;
+      display:flex;
+      justify-content: center;
+      align-items: center;
+      margin: auto;
+     
+    }
+    .main-story{
+        h1{
+            font-size: 2.5rem;
+            justify-content: center;
+            flex-direction: row;
+        }
+        font-size: 1.2rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+  }  
 
-}
 
 .middle-boxed-content{
     display: flex;
     justify-content: center;
+h3{
+    font-size:1.5rem;
 
+}
     .image{
         width: 50%;
-        height: 50%;
+        height: 40%;
         justify-content: center;
     }
     .btn {
@@ -29,12 +45,49 @@
         height: 25px;
         font-size: 1.5rem;
         border-radius: 10px;
-        color:white;
+        color:black;
+        &:hover{
+            background-color:@link-color-hover;  
+        }
     }
 }
-@media @mobile{
-  .main-logo{
-      width: 30%;
-      height: 30%;
-  }  
+
+@media@desktop{
+    .main-logo {
+        display: flex;
+        justify-content: center;
+        width: 50%;
+        height:50%
+    }
+    
+    .main-story{
+        .display();
+    
+    }
+    
+    .middle-boxed-content{
+        display: flex;
+        justify-content: center;
+    
+        .image{
+            width: 50%;
+            height: 50%;
+            justify-content: center;
+        }
+        .btn {
+            background-color: @maincolor;
+            margin: 10px 20px;
+            padding: 5px;
+            text-align: center;
+            cursor: pointer;
+            width: 120px;
+            height: 25px;
+            font-size: 1.5rem;
+            border-radius: 10px;
+            color:black;
+            &:hover{
+                background-color: dimgrey;  
+            }
+        }
+    }
 }

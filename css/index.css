@@ -145,7 +145,7 @@ h2,
 h3,
 h4,
 h5 {
-  font-family: 'Helvectia', cursive;
+  font-family: 'Josefin Sans', 'Helvectia', sans-serif;
 }
 h1 {
   font-size: 4rem;
@@ -172,7 +172,6 @@ img {
   width: 100%;
   margin: 0 auto;
 }
-
 .footer {
   display: flex;
   justify-content: center;
@@ -181,23 +180,37 @@ img {
   width: 30%;
   height: 30%;
 }
-.main-logo {
-  display: flex;
-  justify-content: center;
-  width: 50%;
-  height: 50%;
-}
-.main-story {
-  display: flex;
-  justify-content: space-around;
+@media (min-width: 500px) {
+  .main-logo {
+    width: 50%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+  }
+  .main-story {
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .main-story h1 {
+    font-size: 2.5rem;
+    justify-content: center;
+    flex-direction: row;
+  }
 }
 .middle-boxed-content {
   display: flex;
   justify-content: center;
 }
+.middle-boxed-content h3 {
+  font-size: 1.5rem;
+}
 .middle-boxed-content .image {
   width: 50%;
-  height: 50%;
+  height: 40%;
   justify-content: center;
 }
 .middle-boxed-content .btn {
@@ -210,11 +223,44 @@ img {
   height: 25px;
   font-size: 1.5rem;
   border-radius: 10px;
-  color: white;
+  color: black;
 }
-@media (min-width: 500px) {
+.middle-boxed-content .btn:hover {
+  background-color: #00cc7e;
+}
+@media (min-width:1000px) {
   .main-logo {
-    width: 30%;
-    height: 30%;
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    height: 50%;
+  }
+  .main-story {
+    display: flex;
+    justify-content: space-around;
+  }
+  .middle-boxed-content {
+    display: flex;
+    justify-content: center;
+  }
+  .middle-boxed-content .image {
+    width: 50%;
+    height: 50%;
+    justify-content: center;
+  }
+  .middle-boxed-content .btn {
+    background-color: #00ff9d;
+    margin: 10px 20px;
+    padding: 5px;
+    text-align: center;
+    cursor: pointer;
+    width: 120px;
+    height: 25px;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    color: black;
+  }
+  .middle-boxed-content .btn:hover {
+    background-color: dimgrey;
   }
 }
