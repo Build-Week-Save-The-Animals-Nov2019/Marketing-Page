@@ -49,6 +49,7 @@ table {
 
 /*MY CODE HERE */
 /* Mobile */
+/*NavBar Start */
 * {
     box-sizing: border-box;
     padding: 0;
@@ -109,9 +110,53 @@ a:visited {
         color: rgba(0, 0, 0, 1);
         background: #00ff9d;
     }
+    /*NavBar End */
+/* Main Section */
+    .main-section {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .main-section div {
+
+    }
+
+    .julisa-image {
+        width: 200px;
+        height: auto;
+        margin: 15% 1% 5% 5%;
+        border-radius: 20%;
+    }
+
+    .danial-image {
+        width: 200px;
+        height: auto;
+        margin: 15% 1% 5% 1%;
+        border-radius: 20%;
+    }
+
+    .adam-image {
+        width: 200px;
+        height: auto;
+        margin: 15% 1% 5% 1%;
+        border-radius: 20%;
+
+    }
+
+    .main-section div p {
+        margin: 15% 1% 5% 1%;
+    }
+
+
+    
+/* Tablet Media */
+@media screen and (min-width: 800px) {
+
+}
+
 
 /* Desktop Media */
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1000px) {
     .navbar {
         display: flex;
         justify-content: space-between;
