@@ -172,6 +172,15 @@ img {
   width: 100%;
   margin: 0 auto;
 }
+
+.footer {
+  display: flex;
+  justify-content: center;
+}
+.footer .footer-logo {
+  width: 30%;
+  height: 30%;
+}
 .main-logo {
   display: flex;
   justify-content: center;
