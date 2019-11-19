@@ -184,6 +184,14 @@ body {
     width  : 20%;
 }
 
+li button {
+    border-radius: 10%;
+    background   : #00ff9d;
+    padding      : 2%;
+    font-size    : 1.1em;
+    cursor       : pointer;
+}
+
 .active {
     display: block;
 
@@ -203,54 +211,59 @@ a:visited {
 .main-section {
     display  : flex;
     flex-wrap: wrap;
-    
+
 }
 
 .main-section div {
     text-align: center;
 }
 
+.main-section div:nth-child(2) {
+    background: #00ff9d;
+}
+
 .julisa-image {
     width        : 25%;
     height       : auto;
-    margin: 15% 30% 0 0;
+    margin       : 15% 30% 0 0;
     border-radius: 20%;
 }
 
 .danial-image {
     width        : 25%;
     height       : auto;
-    margin: 15% 0 0 30%;
+    margin       : 15% 0 0 30%;
     border-radius: 20%;
 }
 
 .adam-image {
     width        : 25%;
     height       : auto;
-    margin: 15% 30% 0 0;
+    margin       : 15% 30% 0 0;
     border-radius: 20%;
 
 }
 
+
 .main-section div p {
-    margin: 0 0 0 0;
+    margin   : 0 0 0 0;
     font-size: 1.2rem;
 }
 
 .main-section div h1 {
-    margin: 0 0 0 0;
+    margin   : 0 0 0 0;
     font-size: 1.5rem;
 }
 
 /* Main Section End */
 footer {
     text-align: center;
-    font-size: 1.2;
-    margin: 15% 0 0 0;
-    padding: 2%;
+    font-size : 1.2;
+    margin    : 15% 0 0 0;
+    padding   : 2%;
     border-top: 1px solid black;
     background: #26272b;
-    color: #737373;
+    color     : #737373;
 }
 
 footer p {
@@ -259,7 +272,7 @@ footer p {
 
 footer a {
     text-decoration: none;
-    color: #00ff9d;
+    color          : #00ff9d;
 }
 
 
@@ -304,5 +317,27 @@ footer a {
         display: none;
     }
 
+    /* Desktop Nav End */
+    
+    .logo {
+        margin-left: 1%;
+    }
+    .main-section {
+        margin: 2%;
+    }
 
+    .main-section div {
+        width: 100%;
+    }
+
+        li button {
+            border-radius: 10%;
+            background   : #00ff9d;
+            margin: 0 4% 0 4%;
+            width: 110%;
+            padding      : 0 4% 0 4%;
+            font-size    : 1.1em;
+            
+        }
+    
 }
