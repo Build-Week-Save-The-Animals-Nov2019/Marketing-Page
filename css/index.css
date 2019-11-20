@@ -194,10 +194,12 @@ img {
     width: 50%;
     height: 45%;
     line-height: 1.5rem;
+    padding-top: 10px;
   }
   .footer img {
-    height: 25%;
-    width: 25%;
+    height: 10%;
+    width: 10%;
+    padding-bottom: 10px;
   }
 }
 @media (min-width: 500px) {
@@ -211,7 +213,7 @@ img {
   }
   h1 {
     font-size: 3.5rem;
-    padding-bottom: 5px;
+    padding-bottom: 10px;
     display: flex;
     justify-content: center;
   }
@@ -238,6 +240,7 @@ img {
   h2 {
     display: flex;
     justify-content: center;
+    padding-top: 10px;
   }
   .middle-boxed-content {
     display: flex;
@@ -293,28 +296,25 @@ img {
   .overlay-text {
     background-image: url('../images/snake.jpg');
     background-repeat: no-repeat;
-    background-size: cover;
     height: 30vh;
     display: flex;
-    flex-direction: column;
     align-items: center;
     justify-content: center;
   }
-  .overlay-text .overlay {
-    background-color: darkgray;
-    opacity: 0.8;
+  .overlay-text p {
+    background-size: cover;
+    opacity: 1;
     width: 75%;
     font-size: 1.8rem;
     font-weight: bold;
     line-height: 1.5;
-    color: #0d30ba;
   }
 }
 /* Desktop Media*/
 @media (min-width:1000px) {
   .main-logo {
-    width: 40%;
-    height: 40%;
+    width: 20%;
+    height: 20%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -331,7 +331,7 @@ img {
     font-size: 2.5rem;
     flex-direction: column;
     align-items: center;
-    box-shadow: 0 20px 40px -14px;
+    box-shadow: 0 20px 20px -14px;
   }
   .main-story p {
     font-size: 2.5rem;
@@ -350,50 +350,49 @@ img {
   }
   .main-story h1 {
     font-size: 4rem;
-    padding-bottom: 5px;
+    padding-bottom: 10px;
     display: flex;
     justify-content: center;
   }
-  .main-story h2 {
+  h2 {
     display: flex;
     justify-content: center;
+    margin-top: 10px;
   }
-  .main-story .middle-boxed-content {
+  .middle-boxed-content {
     display: flex;
-    justify-content: center;
     flex-direction: row;
-    align-items: center;
   }
-  .main-story .middle-boxed-content .box {
+  .middle-boxed-content .box {
     display: flex;
     flex-direction: column;
-    align-items: space-around;
+    align-items: center;
     margin: auto;
     width: 90%;
     margin: 2%;
   }
-  .main-story .middle-boxed-content .box img {
-    width: 90%;
-    height: 250px;
+  .middle-boxed-content .box img {
+    max-width: 100%;
+    max-height: 250px;
     justify-content: center;
   }
-  .main-story .middle-boxed-content .box h3 {
+  .middle-boxed-content .box h3 {
     font-size: 2.4rem;
     font-weight: bolder;
     margin-bottom: 10px;
     margin-top: 10px;
     text-align: center;
   }
-  .main-story .middle-boxed-content .box button {
+  .middle-boxed-content .box button {
     width: 175px;
     height: 35px;
     font-size: 2rem;
     color: navy;
   }
-  .main-story .middle-boxed-content h3 {
+  .middle-boxed-content h3 {
     font-size: 1.5rem;
   }
-  .main-story .middle-boxed-content .btn {
+  .middle-boxed-content .btn {
     background-color: #00ff9d;
     margin: 10px 20px;
     padding: 5px;
@@ -404,10 +403,10 @@ img {
     border-radius: 10px;
     color: black;
   }
-  .main-story .middle-boxed-content .btn:hover {
+  .middle-boxed-content .btn:hover {
     background-color: #00cc7e;
   }
-  .main-story .overlay-text {
+  .overlay-text {
     background-image: url('../images/snake.jpg');
     background-repeat: no-repeat;
     background-size: cover;
@@ -416,11 +415,10 @@ img {
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    background-color: darkgray;
-    opacity: 0.8;
+    opacity: 1;
     width: 100%;
   }
-  .main-story .overlay-text p {
+  .overlay-text p {
     font-size: 2.5rem;
     font-weight: bold;
     line-height: 1.5;
