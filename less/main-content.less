@@ -1,0 +1,276 @@
+@media @mobile {
+    .navbar {
+        display: flex;
+        justify-content: center;
+    }
+    .nav-links {
+        color: black;
+    }
+    .main-logo {
+        width: 50%;
+        height: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+    }
+    h1 {
+        font-size: 3.5rem;
+        padding-bottom: 10px;
+        display: flex;
+        justify-content: center;
+        text-shadow: 3px 3px @maincolor;
+        font-weight: bolder;
+    }
+    .main-story {
+        display: flex;
+        font-size: 2rem;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+        box-shadow: 0 15px 15px -14px;
+        p {
+            box-sizing: border-box;
+            overflow: hidden;
+            color: rgb(0, 2, 10);
+            font-weight: bolder;
+            background-image: url('../images/watered.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 35vh;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            padding: 0;
+            font-size: 2.8rem;
+            .text-span {
+                display: flex;
+                align-items: center;
+                width: 80%;
+                background-color: lightblue;
+                opacity: .7;
+                padding: 2%;
+                text-align: center;
+                font-size: 1.8rem;
+            }
+        }
+    }
+    h2 {
+        display: flex;
+        justify-content: center;
+        padding-top: 10px;
+    }
+    .middle-boxed-content {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        .box {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: auto;
+            img {
+                width: 70%;
+                height: 200px;
+                justify-content: center;
+                box-shadow: 0 20px 20px -14px;
+            }
+            width: 70%;
+            margin: 2%;
+            h3 {
+                font-size: 2.4rem;
+                font-weight: bolder;
+                margin-bottom: 10px;
+                margin-top: 20px;
+                text-align: center;
+            }
+            button {
+                width: 175px;
+                height: 35px;
+                font-size: 1.8rem;
+                color: navy;
+                font-weight: bold;
+            }
+        }
+    }
+        h3 {
+            font-size: 1.5rem;
+        }
+        .btn {
+            background-color: @maincolor;
+            margin: 10px 20px;
+            padding: 5px;
+            text-align: center;
+            cursor: pointer;
+            width: 120px;
+            height: 25px;
+            font-size: 1.5rem;
+            border-radius: 10px;
+            color: black;
+            &:hover {
+                background-color: @link-color-hover;
+            }
+        }
+    }
+    .overlay-text {
+        background-image: url('../images/snake.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 40vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        p {
+            display: flex;
+            align-items: center;
+            font-size: 2rem;
+            font-weight: bold;
+            line-height: 1.5;
+            color: rgb(2, 4, 14);
+            background-color: rgb(238, 196, 116);
+            opacity: .6;
+            text-align: center;
+            padding: 25px;
+            width: 75%;
+            height: 100%;
+        }
+    }
+/* Desktop Media*/
+@media@desktop {
+    .nav-links {
+        color: black;
+    }
+    .main-logo {
+        width: 20%;
+        height: 20%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+    }
+    .main-nav {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+    }
+    h1 {
+        font-size: 5rem;
+        text-shadow: 3px 3px @maincolor;
+        padding-bottom: 10px;
+        display: flex;
+        justify-content: center;
+        font-weight: bolder;
+        ;
+    }
+    .main-story {
+        display: flex;
+        font-size: 2.5rem;
+        flex-direction: column;
+        align-items: center;
+        p {
+            font-weight: bold;
+            line-height: 1.5;
+            color: rgb(0, 2, 10);
+            background-image: url('../images/watered.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 35vh;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            .text-span {
+                width: 80%;
+                background-color: lightblue;
+                opacity: .7;
+                padding: 15px;
+                text-align: center;
+                font-size: 2.6rem;
+            }
+        }
+        box-shadow: 0 20px 20px -14px;
+    }
+    h2 {
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+    }
+    .middle-boxed-content {
+        display: flex;
+        flex-direction: row;
+        align-items: initial;
+        .box {
+            display: flex;
+            flex-direction: column;
+            margin: auto;
+            justify-content: space-between;
+            img {
+                width: 300%;
+                height: 400px;
+                justify-content: center;
+            }
+    
+            width: 100%;
+            margin: 1%;
+            h3 {
+                font-size: 2.4rem;
+                font-weight: bolder;
+                margin-bottom: 10px;
+                margin-top: 20px;
+                text-align: center;
+            }
+            button {
+                width: 175px;
+                height: 35px;
+                font-size: 2rem;
+                color: navy;
+                font-weight: bold;
+            }
+        }
+        h3 {
+            font-size: 1.5rem;
+        }
+        .btn {
+            background-color: @maincolor;
+            margin: 10px 20px;
+            padding: 5px;
+            text-align: center;
+            cursor: pointer;
+            width: 120px;
+            height: 25px;
+            border-radius: 10px;
+            color: black;
+            &:hover {
+                background-color: @link-color-hover;
+            }
+        }
+    }
+    .overlay-text {
+        background-image: url('../images/snake.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 30vh;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        opacity: 1;
+        width: 100%;
+        p {
+            font-size: 2.5rem;
+            font-weight: bold;
+            line-height: 1.5;
+            color: rgb(2, 4, 14);
+            background-color: rgb(238, 196, 116);
+            opacity: .6;
+            text-align: center;
+            padding: 25px;
+        }
+    }
+}

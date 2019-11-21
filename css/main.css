@@ -1,14 +1,3 @@
-/* Mobile */
-* {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-}
-
-body {
-    font-family: 'Josefin Sans', sans-serif;
-}
-
 .navbar {
     font-size: 18px;
     border: 1px solid rgba (0, 0, 0, 0.2);
@@ -97,3 +86,4 @@ a:visited {
 
     
 }
+
