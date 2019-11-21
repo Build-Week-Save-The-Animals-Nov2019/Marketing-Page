@@ -198,6 +198,9 @@ img {
 .email {
   width: 80%;
 }
+.email a {
+  padding-left: 1%;
+}
 .social {
   display: flex;
   width: 20%;
@@ -256,10 +259,12 @@ img {
     width: 50%;
     height: 45%;
     line-height: 1.5rem;
+    padding-top: 10px;
   }
   .footer img {
-    height: 25%;
-    width: 25%;
+    height: 10%;
+    width: 10%;
+    padding-bottom: 10px;
   }
 }
 /*MY CODE HERE */
@@ -268,7 +273,7 @@ img {
   font-size: 18px;
   padding-bottom: 10px;
 }
-.navbar .navbar-toggle {
+.navbar-toggle {
   position: absolute;
   top: 10px;
   right: 20px;
@@ -440,9 +445,6 @@ a {
     color: navy;
     font-weight: bold;
   }
-  h3 {
-    font-size: 1.5rem;
-  }
   .btn {
     background-color: #00ff9d;
     margin: 10px 20px;
@@ -501,7 +503,7 @@ a {
     align-items: center;
     margin: auto;
   }
-  h1 {
+  header h1 {
     font-size: 5rem;
     text-shadow: 3px 3px #00ff9d;
     padding-bottom: 10px;
@@ -635,6 +637,7 @@ a {
   color: #edf2f7;
   padding: 3%;
   font-weight: 600;
+  text-shadow: none;
 }
 .jumbotron p {
   font-size: 2.5rem;
@@ -643,11 +646,18 @@ a {
   text-align: center;
   padding-bottom: 2%;
 }
+@media (max-width: 500px) {
+  .jumbotron p span {
+    background-color: rgba(49, 204, 191, 0.63);
+    font-size: 2rem;
+  }
+}
 .jumbotron .jumbo-btn {
   font-size: 2rem;
   background-color: #06d4a8;
   border: solid #06d4a8 1px;
   border-radius: 5px;
+  font-weight: bold;
   padding: 16px 32px;
   text-align: center;
   transition-duration: 0.4s;
@@ -680,6 +690,11 @@ hr {
   justify-content: space-between;
   display: flex;
 }
+@media (max-width: 500px) {
+  .container .cards {
+    flex-direction: column;
+  }
+}
 .container .card {
   background-color: white;
   border-radius: 0.25rem;
@@ -687,21 +702,43 @@ hr {
   width: 50%;
   margin: 5%;
 }
-.container .card-title {
+.container .card .card-title {
   color: grey;
-  font-size: 1.25rem;
+  font-size: 2.5rem;
   font-weight: 300;
   letter-spacing: 2px;
   text-transform: uppercase;
   text-align: center;
   padding: 2%;
 }
-.container .card-summary {
+@media (max-width: 500px) {
+  .container .card .card-title {
+    font-size: 3.5rem;
+  }
+}
+.container .card .card-summary {
   text-align: center;
   padding: 5%;
 }
-.container img {
+.container .card img {
   max-width: 100%;
+}
+@media (max-width: 500px) {
+  .container .card {
+    width: 100%;
+    margin: auto;
+    margin-bottom: 10%;
+  }
+}
+@media (max-width: 500px) {
+  .container .card p {
+    font-size: 2rem;
+  }
+}
+@media (max-width: 500px) {
+  .key-app {
+    width: 100%;
+  }
 }
 .card-btn {
   font-size: 1.7rem;
@@ -726,7 +763,7 @@ hr {
   color: #233836;
 }
 .card-btn a:visited {
-  color: #e1fffc;
+  color: #233836;
 }
 .bottom-hr {
   margin-bottom: 8%;
