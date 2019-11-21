@@ -216,23 +216,6 @@ img {
     padding-bottom: 10px;
     margin: auto;
   }
-  .footer-option .email {
-    width: 80%;
-    display: flex;
-    flex-direction: row;
-    align-items: initial;
-    justify-content: center;
-  }
-  .social {
-    display: flex;
-    width: 20%;
-    margin: auto;
-    padding-top: 2%;
-    justify-content: space-evenly;
-  }
-  .social i {
-    font-size: 4rem;
-  }
 }
 @media (min-width: 500px) {
   .nav-links {
