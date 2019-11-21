@@ -235,10 +235,6 @@ img {
   }
 }
 @media (min-width: 500px) {
-  .navbar {
-    display: flex;
-    justify-content: center;
-  }
   .nav-links {
     color: black;
   }
@@ -255,44 +251,26 @@ img {
     padding-bottom: 10px;
     display: flex;
     justify-content: center;
-    text-shadow: 3px 3px #00ff9d;
-    font-weight: bolder;
   }
   .main-story {
     display: flex;
     font-size: 2rem;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
     margin: auto;
     box-shadow: 0 15px 15px -14px;
   }
   .main-story p {
-    box-sizing: border-box;
-    overflow: hidden;
     color: #00020a;
     font-weight: bolder;
     background-image: url('../images/watered.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    height: 35vh;
+    height: 30vh;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    width: 100%;
-    padding: 0;
-    font-size: 2.8rem;
-  }
-  .main-story p .text-span {
-    display: flex;
-    align-items: center;
-    width: 80%;
-    background-color: lightblue;
-    opacity: 0.7;
-    padding: 2%;
-    text-align: center;
-    font-size: 1.8rem;
   }
   h2 {
     display: flex;
@@ -323,7 +301,7 @@ img {
     font-size: 2.4rem;
     font-weight: bolder;
     margin-bottom: 10px;
-    margin-top: 20px;
+    margin-top: 10px;
     text-align: center;
   }
   .middle-boxed-content .box button {
@@ -331,12 +309,11 @@ img {
     height: 35px;
     font-size: 1.8rem;
     color: navy;
-    font-weight: bold;
   }
-  h3 {
+  .middle-boxed-content h3 {
     font-size: 1.5rem;
   }
-  .btn {
+  .middle-boxed-content .btn {
     background-color: #00ff9d;
     margin: 10px 20px;
     padding: 5px;
@@ -348,32 +325,25 @@ img {
     border-radius: 10px;
     color: black;
   }
-  .btn:hover {
+  .middle-boxed-content .btn:hover {
     background-color: #00cc7e;
   }
-}
-.overlay-text {
-  background-image: url('../images/snake.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 40vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.overlay-text p {
-  display: flex;
-  align-items: center;
-  font-size: 2rem;
-  font-weight: bold;
-  line-height: 1.5;
-  color: #02040e;
-  background-color: #eec474;
-  opacity: 0.6;
-  text-align: center;
-  padding: 25px;
-  width: 75%;
-  height: 100%;
+  .overlay-text {
+    background-image: url('../images/snake.jpg');
+    background-repeat: no-repeat;
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .overlay-text p {
+    background-size: cover;
+    opacity: 1;
+    width: 75%;
+    font-size: 1.8rem;
+    font-weight: bold;
+    line-height: 1.5;
+  }
 }
 /* Desktop Media*/
 @media (min-width:1000px) {
@@ -394,14 +364,6 @@ img {
     align-items: center;
     margin: auto;
   }
-  h1 {
-    font-size: 5rem;
-    text-shadow: 3px 3px #00ff9d;
-    padding-bottom: 10px;
-    display: flex;
-    justify-content: center;
-    font-weight: bolder;
-  }
   .main-story {
     display: flex;
     font-size: 2.5rem;
@@ -410,26 +372,25 @@ img {
     box-shadow: 0 20px 20px -14px;
   }
   .main-story p {
+    font-size: 2.5rem;
     font-weight: bold;
     line-height: 1.5;
     color: #00020a;
     background-image: url('../images/watered.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    height: 35vh;
+    height: 30vh;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
     width: 100%;
   }
-  .main-story p .text-span {
-    width: 80%;
-    background-color: lightblue;
-    opacity: 0.7;
-    padding: 15px;
-    text-align: center;
-    font-size: 2.6rem;
+  .main-story h1 {
+    font-size: 4rem;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: center;
   }
   h2 {
     display: flex;
@@ -439,13 +400,11 @@ img {
   .middle-boxed-content {
     display: flex;
     flex-direction: row;
-    align-items: initial;
   }
   .middle-boxed-content .box {
     display: flex;
     flex-direction: column;
     margin: auto;
-    justify-content: space-between;
     width: 100%;
     margin: 1%;
   }
@@ -458,7 +417,7 @@ img {
     font-size: 2.4rem;
     font-weight: bolder;
     margin-bottom: 10px;
-    margin-top: 20px;
+    margin-top: 10px;
     text-align: center;
   }
   .middle-boxed-content .box button {
@@ -466,7 +425,6 @@ img {
     height: 35px;
     font-size: 2rem;
     color: navy;
-    font-weight: bold;
   }
   .middle-boxed-content h3 {
     font-size: 1.5rem;
@@ -502,9 +460,5 @@ img {
     font-weight: bold;
     line-height: 1.5;
     color: #02040e;
-    background-color: #eec474;
-    opacity: 0.6;
-    text-align: center;
-    padding: 25px;
   }
 }
