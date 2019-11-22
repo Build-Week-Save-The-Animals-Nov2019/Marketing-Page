@@ -187,6 +187,8 @@ body {
 
 li button {
     border-radius: 10%;
+    text-transform : uppercase;
+    font-weight: 600;
     background   : #00ff9d;
     padding      : 2%;
     font-size    : 1.1em;
@@ -262,6 +264,7 @@ hr {
 .main-section div h1 {
     margin   : 0 0 0 0;
     font-size: 1.5rem;
+    font-weight: 600;
 }
 
 /* Main Section End */
@@ -316,29 +319,23 @@ footer a {
         margin: 2%;
     }
 
-    .nav-links {
-
-    }
-
 
     .navbar-toggle {
         display: none;
     }
 
     li button {
-        border-radius: 5%;
-        color: #2a2a2a;
-        text-transform: uppercase;
-        letter-spacing: .5rem;
-        font-weight: 600;
-        border: none;
-        text-align: center;
+        border-radius  : 10%;
+        color          : #2a2a2a;
+        text-transform : uppercase;
+        text-align     : center;
         text-decoration: none;
-        background   : #00ff9d;
-        margin       : 0 0 0 0;
-        width        : 120%;
-        padding      : 5%;
-        font-size    : 1.1em;
+        font-weight    : 600;
+        background     : #00ff9d;
+        margin         : 0 0 0 0;
+        width          : 120%;
+        padding        : 5%;
+        font-size      : 1.1em;
 
     }
 
