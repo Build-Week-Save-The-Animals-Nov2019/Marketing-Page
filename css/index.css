@@ -280,6 +280,24 @@ img {
   background: #00ff9d;
   font-size: 24px;
 }
+li button {
+  border-radius: 10%;
+  color: #2a2a2a;
+  text-transform: uppercase;
+  text-align: center;
+  text-decoration: none;
+  font-weight: 600;
+  background: #00ff9d;
+  margin: 0 0 0 25%;
+  width: 120%;
+  padding: 5%;
+  font-size: 1.1em;
+}
+@media (max-width: 500px) {
+  li button {
+    margin: 0;
+  }
+}
 .main-nav {
   list-style-type: none;
   display: none;
